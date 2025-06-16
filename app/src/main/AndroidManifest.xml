@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.memoryleaksample">
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:label="MemoryLeakSample"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".LeakingActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".LeakingActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".LeakingActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".LeakingActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".LeakingActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".LeakingViewModelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".LeakingService1" />
+        <service android:name=".LeakingService2" />
+        <service android:name=".LeakingService3" />
+        <service android:name=".LeakingService4" />
+        <service android:name=".LeakingService5" />
+    </application>
+
+</manifest>

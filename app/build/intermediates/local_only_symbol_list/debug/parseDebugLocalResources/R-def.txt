@@ -1,0 +1,9 @@
+R_DEF: Internal format may change without notice
+local
+id button_leak_activity
+id button_leak_fragment
+id button_leak_fragment_view
+id button_leak_service
+id button_leak_viewmodel
+id button_recreate_activity
+layout activity_main

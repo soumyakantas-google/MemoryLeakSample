@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.memoryleaksample.app-debug-41:/layout_activity_main.xml.flat",
+        "source": "com.example.memoryleaksample.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/soumyakantas/.gradle/daemon/9.0-milestone-1/com.example.memoryleaksample.app-debug-41:/layout_activity_main.xml.flat",
+        "source": "/usr/local/google/home/soumyakantas/.gradle/daemon/9.0-milestone-1/com.example.memoryleaksample.app-main-43:/layout/activity_main.xml"
+    }
+]

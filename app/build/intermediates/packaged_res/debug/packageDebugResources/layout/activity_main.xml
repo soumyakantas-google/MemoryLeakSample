@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/button_leak_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Leak Activity" />
+
+            <Button
+                android:id="@+id/button_leak_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Leak Fragment" />
+
+            <Button
+                android:id="@+id/button_leak_fragment_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Leak Fragment View" />
+
+            <Button
+                android:id="@+id/button_leak_viewmodel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Leak ViewModel" />
+
+            <Button
+                android:id="@+id/button_leak_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Leak Service" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_leak_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Leaking Activity" />
+
+        <Button
+            android:id="@+id/button_leak_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Leaking Fragment" />
+
+        <Button
+            android:id="@+id/button_leak_viewmodel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Leaking ViewModel" />
+
+        <Button
+            android:id="@+id/button_leak_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Leaking Service" />
+
+        <Button
+            android:id="@+id/button_recreate_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recreate Activity (Simulate Rotation)" />
+
+    </LinearLayout>
+</LinearLayout>

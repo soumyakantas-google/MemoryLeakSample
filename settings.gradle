@@ -1,0 +1,2 @@
+rootProject.name = "MemoryLeakSample"
+include ':app'

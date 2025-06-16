@@ -1,0 +1,337 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.memoryleaksample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.memoryleaksample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.memoryleaksample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- To store the heap dumps and leak analysis results. -->
+15-->[androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:25:5-80
+16-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:25:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- To allow posting notifications on Android 13 -->
+17-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:26:5-81
+17-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:26:22-78
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+18-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:29:5-77
+18-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:29:22-74
+19
+20    <application
+20-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:5:5-43:19
+21        android:name="androidx.multidex.MultiDexApplication"
+21-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:6:9-61
+22        android:allowBackup="true"
+22-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:7:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="true"
+26        android:label="MemoryLeakSample"
+26-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:8:9-41
+27        android:testOnly="true"
+28        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+28-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:9:9-65
+29        <activity
+29-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:10:9-12:40
+30            android:name="com.example.memoryleaksample.LeakingActivity1"
+30-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:11:13-45
+31            android:exported="false" />
+31-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:12:13-37
+32        <activity
+32-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:13:9-15:40
+33            android:name="com.example.memoryleaksample.LeakingActivity2"
+33-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:14:13-45
+34            android:exported="false" />
+34-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:15:13-37
+35        <activity
+35-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:16:9-18:40
+36            android:name="com.example.memoryleaksample.LeakingActivity3"
+36-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:17:13-45
+37            android:exported="false" />
+37-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:18:13-37
+38        <activity
+38-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:19:9-21:40
+39            android:name="com.example.memoryleaksample.LeakingActivity4"
+39-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:20:13-45
+40            android:exported="false" />
+40-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:21:13-37
+41        <activity
+41-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:22:9-24:40
+42            android:name="com.example.memoryleaksample.LeakingActivity5"
+42-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:23:13-45
+43            android:exported="false" />
+43-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:24:13-37
+44        <activity
+44-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:25:9-27:40
+45            android:name="com.example.memoryleaksample.LeakingViewModelActivity"
+45-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:26:13-53
+46            android:exported="false" />
+46-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:27:13-37
+47        <activity
+47-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:28:9-36:20
+48            android:name="com.example.memoryleaksample.MainActivity"
+48-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:29:13-41
+49            android:exported="true" >
+49-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:30:13-36
+50            <intent-filter>
+50-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:31:13-35:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:32:17-69
+51-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:32:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:34:17-77
+53-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:34:27-74
+54            </intent-filter>
+55        </activity>
+56
+57        <service android:name="com.example.memoryleaksample.LeakingService1" />
+57-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:38:9-52
+57-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:38:18-49
+58        <service android:name="com.example.memoryleaksample.LeakingService2" />
+58-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:39:9-52
+58-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:39:18-49
+59        <service android:name="com.example.memoryleaksample.LeakingService3" />
+59-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:40:9-52
+59-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:40:18-49
+60        <service android:name="com.example.memoryleaksample.LeakingService4" />
+60-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:41:9-52
+60-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:41:18-49
+61        <service android:name="com.example.memoryleaksample.LeakingService5" />
+61-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:42:9-52
+61-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:42:18-49
+62
+63        <provider
+63-->[androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+65            android:authorities="com.example.memoryleaksample.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/1fc26ed042317fddd1eff143a5790aa5/transformed/jetified-lifecycle-process-2.8.1/AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/1fc26ed042317fddd1eff143a5790aa5/transformed/jetified-lifecycle-process-2.8.1/AndroidManifest.xml:30:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/1fc26ed042317fddd1eff143a5790aa5/transformed/jetified-lifecycle-process-2.8.1/AndroidManifest.xml:31:17-49
+73            <meta-data
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+75                android:value="androidx.startup" />
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+76        </provider>
+77        <provider
+77-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:32:9-40:20
+78            android:name="leakcanary.internal.LeakCanaryFileProvider"
+78-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:33:13-70
+79            android:authorities="com.squareup.leakcanary.fileprovider.com.example.memoryleaksample"
+79-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:34:13-88
+80            android:exported="false"
+80-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:35:13-37
+81            android:grantUriPermissions="true" >
+81-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:36:13-47
+82            <meta-data
+82-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:37:13-39:66
+83                android:name="android.support.FILE_PROVIDER_PATHS"
+83-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:38:17-67
+84                android:resource="@xml/leak_canary_file_paths" />
+84-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:39:17-63
+85        </provider>
+86
+87        <activity
+87-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:42:9-73:20
+88            android:name="leakcanary.internal.activity.LeakActivity"
+88-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:43:13-69
+89            android:exported="true"
+89-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:44:13-36
+90            android:icon="@mipmap/leak_canary_icon"
+90-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:45:13-52
+91            android:label="@string/leak_canary_display_activity_label"
+91-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:46:13-71
+92            android:taskAffinity="com.squareup.leakcanary.com.example.memoryleaksample"
+92-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:47:13-76
+93            android:theme="@style/leak_canary_LeakCanary.Base" >
+93-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:48:13-63
+94            <intent-filter android:label="@string/leak_canary_import_hprof_file" >
+94-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:49:13-72:29
+94-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:49:28-81
+95                <action android:name="android.intent.action.VIEW" />
+95-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:50:17-69
+95-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:50:25-66
+96
+97                <category android:name="android.intent.category.DEFAULT" />
+97-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:52:17-76
+97-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:52:27-73
+98                <category android:name="android.intent.category.BROWSABLE" />
+98-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:53:17-78
+98-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:53:27-75
+99
+100                <data android:scheme="file" />
+100-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:55:17-47
+100-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:55:23-44
+101                <data android:scheme="content" />
+101-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:55:17-47
+101-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:55:23-44
+102                <data android:mimeType="*/*" />
+102-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:55:17-47
+103                <data android:host="*" />
+103-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:55:17-47
+104                <data android:pathPattern=".*\\.hprof" />
+104-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:55:17-47
+105                <data android:pathPattern=".*\\..*\\.hprof" />
+105-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:55:17-47
+106                <data android:pathPattern=".*\\..*\\..*\\.hprof" />
+106-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:55:17-47
+107                <data android:pathPattern=".*\\..*\\..*\\..*\\.hprof" />
+107-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:55:17-47
+108                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.hprof" />
+108-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:55:17-47
+109                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.hprof" />
+109-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:55:17-47
+110                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.hprof" />
+110-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:55:17-47
+111                <!--
+112            Since hprof isn't a standard MIME type, we have to declare such patterns.
+113            Most file providers will generate URIs including their own package name,
+114            which contains `.` characters that must be explicitly escaped in pathPattern.
+115            @see https://stackoverflow.com/a/31028507/703646
+116                -->
+117            </intent-filter>
+118        </activity>
+119
+120        <activity-alias
+120-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:75:9-92:26
+121            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+121-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:76:13-77
+122            android:banner="@drawable/leak_canary_tv_icon"
+122-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:77:13-59
+123            android:enabled="@bool/leak_canary_add_launcher_icon"
+123-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:78:13-66
+124            android:exported="true"
+124-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:79:13-36
+125            android:icon="@mipmap/leak_canary_icon"
+125-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:80:13-52
+126            android:label="@string/leak_canary_display_activity_label"
+126-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:81:13-71
+127            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+127-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:82:13-79
+128            android:taskAffinity="com.squareup.leakcanary.com.example.memoryleaksample"
+128-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:83:13-76
+129            android:theme="@style/leak_canary_LeakCanary.Base" >
+129-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:84:13-63
+130            <intent-filter>
+130-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:85:13-91:29
+131                <action android:name="android.intent.action.MAIN" />
+131-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:32:17-69
+131-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:32:25-66
+132
+133                <category android:name="android.intent.category.LAUNCHER" />
+133-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:34:17-77
+133-->/usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:34:27-74
+134                <!-- Android TV launcher intent -->
+135                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+135-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:90:17-86
+135-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:90:27-83
+136            </intent-filter>
+137        </activity-alias>
+138
+139        <activity
+139-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:94:9-100:68
+140            android:name="leakcanary.internal.RequestPermissionActivity"
+140-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:95:13-73
+141            android:excludeFromRecents="true"
+141-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:96:13-46
+142            android:icon="@mipmap/leak_canary_icon"
+142-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:97:13-52
+143            android:label="@string/leak_canary_storage_permission_activity_label"
+143-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:98:13-82
+144            android:taskAffinity="com.squareup.leakcanary.com.example.memoryleaksample"
+144-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:99:13-76
+145            android:theme="@style/leak_canary_Theme.Transparent" />
+145-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:100:13-65
+146
+147        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+147-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:102:9-77
+147-->[com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:102:19-74
+148
+149        <provider
+149-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c8f7bfd5d5e2724cdccec4d4f7d2469a/transformed/jetified-leakcanary-object-watcher-android-2.12/AndroidManifest.xml:8:9-12:40
+150            android:name="leakcanary.internal.MainProcessAppWatcherInstaller"
+150-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c8f7bfd5d5e2724cdccec4d4f7d2469a/transformed/jetified-leakcanary-object-watcher-android-2.12/AndroidManifest.xml:9:13-78
+151            android:authorities="com.example.memoryleaksample.leakcanary-installer"
+151-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c8f7bfd5d5e2724cdccec4d4f7d2469a/transformed/jetified-leakcanary-object-watcher-android-2.12/AndroidManifest.xml:10:13-72
+152            android:enabled="@bool/leak_canary_watcher_auto_install"
+152-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c8f7bfd5d5e2724cdccec4d4f7d2469a/transformed/jetified-leakcanary-object-watcher-android-2.12/AndroidManifest.xml:11:13-69
+153            android:exported="false" />
+153-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c8f7bfd5d5e2724cdccec4d4f7d2469a/transformed/jetified-leakcanary-object-watcher-android-2.12/AndroidManifest.xml:12:13-37
+154        <provider
+154-->[com.squareup.leakcanary:plumber-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/63a27adec5d49f7ff5fbfe21a4832505/transformed/jetified-plumber-android-2.12/AndroidManifest.xml:8:9-12:40
+155            android:name="leakcanary.internal.PlumberInstaller"
+155-->[com.squareup.leakcanary:plumber-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/63a27adec5d49f7ff5fbfe21a4832505/transformed/jetified-plumber-android-2.12/AndroidManifest.xml:9:13-64
+156            android:authorities="com.example.memoryleaksample.plumber-installer"
+156-->[com.squareup.leakcanary:plumber-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/63a27adec5d49f7ff5fbfe21a4832505/transformed/jetified-plumber-android-2.12/AndroidManifest.xml:10:13-69
+157            android:enabled="@bool/leak_canary_plumber_auto_install"
+157-->[com.squareup.leakcanary:plumber-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/63a27adec5d49f7ff5fbfe21a4832505/transformed/jetified-plumber-android-2.12/AndroidManifest.xml:11:13-69
+158            android:exported="false" />
+158-->[com.squareup.leakcanary:plumber-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/63a27adec5d49f7ff5fbfe21a4832505/transformed/jetified-plumber-android-2.12/AndroidManifest.xml:12:13-37
+159
+160        <receiver
+160-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+161            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+161-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+162            android:directBootAware="false"
+162-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+163            android:enabled="true"
+163-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+164            android:exported="true"
+164-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+165            android:permission="android.permission.DUMP" >
+165-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+166            <intent-filter>
+166-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+167                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+167-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+167-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+168            </intent-filter>
+169            <intent-filter>
+169-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+170                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+170-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+170-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+171            </intent-filter>
+172            <intent-filter>
+172-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+173                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+173-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+173-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+174            </intent-filter>
+175            <intent-filter>
+175-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+176                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+176-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+176-->[androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+177            </intent-filter>
+178        </receiver>
+179    </application>
+180
+181</manifest>

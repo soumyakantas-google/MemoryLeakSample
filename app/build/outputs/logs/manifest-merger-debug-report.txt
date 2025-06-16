@@ -1,0 +1,528 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:2:1-45:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/50afea13b65dbece70a924df0b5bde98/transformed/jetified-leakcanary-android-2.12/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.12.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3e85b16a97ac5b9579dd30628c0edc06/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/8fb6d56b5156d916ab2b8e573ae97136/transformed/constraintlayout-2.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5a284da94e475329330a4bd0f98a271c/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3b197ef705d2618966bd83d743fe33d5/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/6879bfdfb5a8c28f6ceccbfde8610f41/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.6.2] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/79a30e0e5b234265eba2c0a74d05223c/transformed/fragment-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/d8885e5724280e47596ad573e021476a/transformed/jetified-fragment-ktx-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3aafed5d89c1bb0d39a3e44155f5ae96/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/0d09f10fa5a1ef8be146a84b9820e30f/transformed/jetified-activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/49f7e002be70effd562b2bda172b94a5/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.transition:transition:1.5.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/ac76896ba95c6f147708232d9d323ca5/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c1933f7570fc34695268bddaff74ba0f/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/1b79a4fb7270dae78a2451a93e6d2e71/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/0d919b7efd2b30df2ebf66f9ec0f1b99/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/7f72f5bc968d027bbdaa5cdeee110aeb/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/8e1b285d3c636f466030c793cf952a75/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/251d576f8dcca13ede480f69085790dc/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c79b73091b2221bb161117b1da4b8d92/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/016b914d5b1e2c5246988f411c75a3b0/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/71412db00a4d52e348af94dbbd104ea9/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/22898fee9b6b3c5805597516284d09a3/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c0637193350f1ea1d2950c351a87307e/transformed/jetified-core-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/7b86c85e4cc3d4da24d3f4381a2b3b66/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/04a5257b0864474c492b32e9ddb8925c/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/2a5e71718085651123eb0f125b65a432/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/ec481eaa18f8334878de2be37e5241a6/transformed/lifecycle-livedata-2.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/dde4d13505cbf42da58a8fe8c92e49c5/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/0de815d4e73627d40a452c05e0ddcab1/transformed/lifecycle-viewmodel-2.8.1/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/7e993c9f05353fe118ddd2bf5537e735/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/0dbb3a495ec00621acb28e1ff8ff225b/transformed/lifecycle-livedata-core-2.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/1fc26ed042317fddd1eff143a5790aa5/transformed/jetified-lifecycle-process-2.8.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/b7762e6977849d74fe686ad74d9a1232/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/2c58b3069657e3a99dfb7a03f8267410/transformed/jetified-lifecycle-livedata-core-ktx-2.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/b92f1f351c556e160038976776f3d10a/transformed/jetified-lifecycle-viewmodel-ktx-2.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:17:1-105:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c8f7bfd5d5e2724cdccec4d4f7d2469a/transformed/jetified-leakcanary-object-watcher-android-2.12/AndroidManifest.xml:2:1-15:12
+MERGED from [com.squareup.leakcanary:plumber-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/63a27adec5d49f7ff5fbfe21a4832505/transformed/jetified-plumber-android-2.12/AndroidManifest.xml:2:1-15:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/72bbe8dbc77964f559f12fd51ef1594b/transformed/jetified-leakcanary-object-watcher-android-androidx-2.12/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/9e09e3e5832fca1b9d7011c3db1c11b3/transformed/jetified-leakcanary-object-watcher-android-support-fragments-2.12/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/65d896c24f871a0f8fc0f45da44e98e8/transformed/jetified-leakcanary-object-watcher-android-core-2.12/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:plumber-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/2bd5f312dc326c810f7248948cdd7d5a/transformed/jetified-plumber-android-core-2.12/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/b7fc71add068ce0a6bfbf0156ad79aff/transformed/jetified-leakcanary-android-utils-2.12/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.curtains:curtains:1.2.4] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/67b31116081fa2fe12b19ec4d0c73f91/transformed/jetified-curtains-1.2.4/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/53c02cfdc283596e9c0fd0ed63789de7/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/35ca2248acc99175ae0b5772c242a970/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/a7f90deb09043f9410a9d6d85550e640/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/b59792819697092a1c77572ac69ce002/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/2b62e28e9ae6d237f84e9c676493a562/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/d17353d07e05fe5a044e24a17087d293/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/a531b58ec93832c84bca4099f1b55932/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/eb4dffc48a6e9ce5c981b25ef2e3b09c/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/d15ff4cd358a186eb3ac220e9ec420f3/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/26b834c1ea5d618ab5f0bbd199073f4f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd237eb39e3a96debb85f9dcb5073b3/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/e81058bf93b7aa78cb3e72e4bbeb7cfa/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+	package
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:5:5-43:19
+INJECTED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:5:5-43:19
+INJECTED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:5:5-43:19
+MERGED from [com.google.android.material:material:1.12.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3e85b16a97ac5b9579dd30628c0edc06/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3e85b16a97ac5b9579dd30628c0edc06/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/8fb6d56b5156d916ab2b8e573ae97136/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/8fb6d56b5156d916ab2b8e573ae97136/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/1fc26ed042317fddd1eff143a5790aa5/transformed/jetified-lifecycle-process-2.8.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/1fc26ed042317fddd1eff143a5790aa5/transformed/jetified-lifecycle-process-2.8.1/AndroidManifest.xml:23:5-33:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:31:5-103:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:31:5-103:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c8f7bfd5d5e2724cdccec4d4f7d2469a/transformed/jetified-leakcanary-object-watcher-android-2.12/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c8f7bfd5d5e2724cdccec4d4f7d2469a/transformed/jetified-leakcanary-object-watcher-android-2.12/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/63a27adec5d49f7ff5fbfe21a4832505/transformed/jetified-plumber-android-2.12/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/63a27adec5d49f7ff5fbfe21a4832505/transformed/jetified-plumber-android-2.12/AndroidManifest.xml:7:5-13:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/b59792819697092a1c77572ac69ce002/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/b59792819697092a1c77572ac69ce002/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/d17353d07e05fe5a044e24a17087d293/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/d17353d07e05fe5a044e24a17087d293/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:8:9-41
+	android:testOnly
+		INJECTED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml
+	android:allowBackup
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:9:9-65
+	android:name
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:6:9-61
+activity#com.example.memoryleaksample.LeakingActivity1
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:10:9-12:40
+	android:exported
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:11:13-45
+activity#com.example.memoryleaksample.LeakingActivity2
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:13:9-15:40
+	android:exported
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:14:13-45
+activity#com.example.memoryleaksample.LeakingActivity3
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:17:13-45
+activity#com.example.memoryleaksample.LeakingActivity4
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:20:13-45
+activity#com.example.memoryleaksample.LeakingActivity5
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:23:13-45
+activity#com.example.memoryleaksample.LeakingViewModelActivity
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:26:13-53
+activity#com.example.memoryleaksample.MainActivity
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:28:9-36:20
+	android:exported
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:29:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:34:27-74
+service#com.example.memoryleaksample.LeakingService1
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:38:9-52
+	android:name
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:38:18-49
+service#com.example.memoryleaksample.LeakingService2
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:39:9-52
+	android:name
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:39:18-49
+service#com.example.memoryleaksample.LeakingService3
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:40:9-52
+	android:name
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:40:18-49
+service#com.example.memoryleaksample.LeakingService4
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:41:9-52
+	android:name
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:41:18-49
+service#com.example.memoryleaksample.LeakingService5
+ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:42:9-52
+	android:name
+		ADDED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml:42:18-49
+uses-sdk
+INJECTED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml
+INJECTED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/50afea13b65dbece70a924df0b5bde98/transformed/jetified-leakcanary-android-2.12/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/50afea13b65dbece70a924df0b5bde98/transformed/jetified-leakcanary-android-2.12/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3e85b16a97ac5b9579dd30628c0edc06/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3e85b16a97ac5b9579dd30628c0edc06/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/8fb6d56b5156d916ab2b8e573ae97136/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/8fb6d56b5156d916ab2b8e573ae97136/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5a284da94e475329330a4bd0f98a271c/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5a284da94e475329330a4bd0f98a271c/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3b197ef705d2618966bd83d743fe33d5/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3b197ef705d2618966bd83d743fe33d5/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/6879bfdfb5a8c28f6ceccbfde8610f41/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/6879bfdfb5a8c28f6ceccbfde8610f41/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.6.2] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/79a30e0e5b234265eba2c0a74d05223c/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/79a30e0e5b234265eba2c0a74d05223c/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/d8885e5724280e47596ad573e021476a/transformed/jetified-fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/d8885e5724280e47596ad573e021476a/transformed/jetified-fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3aafed5d89c1bb0d39a3e44155f5ae96/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3aafed5d89c1bb0d39a3e44155f5ae96/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/0d09f10fa5a1ef8be146a84b9820e30f/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/0d09f10fa5a1ef8be146a84b9820e30f/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/49f7e002be70effd562b2bda172b94a5/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/49f7e002be70effd562b2bda172b94a5/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.transition:transition:1.5.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/ac76896ba95c6f147708232d9d323ca5/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/ac76896ba95c6f147708232d9d323ca5/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c1933f7570fc34695268bddaff74ba0f/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c1933f7570fc34695268bddaff74ba0f/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/1b79a4fb7270dae78a2451a93e6d2e71/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/1b79a4fb7270dae78a2451a93e6d2e71/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/0d919b7efd2b30df2ebf66f9ec0f1b99/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/0d919b7efd2b30df2ebf66f9ec0f1b99/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/7f72f5bc968d027bbdaa5cdeee110aeb/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/7f72f5bc968d027bbdaa5cdeee110aeb/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/8e1b285d3c636f466030c793cf952a75/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/8e1b285d3c636f466030c793cf952a75/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/251d576f8dcca13ede480f69085790dc/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/251d576f8dcca13ede480f69085790dc/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c79b73091b2221bb161117b1da4b8d92/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c79b73091b2221bb161117b1da4b8d92/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/016b914d5b1e2c5246988f411c75a3b0/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/016b914d5b1e2c5246988f411c75a3b0/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/71412db00a4d52e348af94dbbd104ea9/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/71412db00a4d52e348af94dbbd104ea9/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/22898fee9b6b3c5805597516284d09a3/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/22898fee9b6b3c5805597516284d09a3/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c0637193350f1ea1d2950c351a87307e/transformed/jetified-core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c0637193350f1ea1d2950c351a87307e/transformed/jetified-core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/7b86c85e4cc3d4da24d3f4381a2b3b66/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/7b86c85e4cc3d4da24d3f4381a2b3b66/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/04a5257b0864474c492b32e9ddb8925c/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/04a5257b0864474c492b32e9ddb8925c/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/2a5e71718085651123eb0f125b65a432/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/2a5e71718085651123eb0f125b65a432/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/ec481eaa18f8334878de2be37e5241a6/transformed/lifecycle-livedata-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/ec481eaa18f8334878de2be37e5241a6/transformed/lifecycle-livedata-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/dde4d13505cbf42da58a8fe8c92e49c5/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/dde4d13505cbf42da58a8fe8c92e49c5/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/0de815d4e73627d40a452c05e0ddcab1/transformed/lifecycle-viewmodel-2.8.1/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/0de815d4e73627d40a452c05e0ddcab1/transformed/lifecycle-viewmodel-2.8.1/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/7e993c9f05353fe118ddd2bf5537e735/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/7e993c9f05353fe118ddd2bf5537e735/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/0dbb3a495ec00621acb28e1ff8ff225b/transformed/lifecycle-livedata-core-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/0dbb3a495ec00621acb28e1ff8ff225b/transformed/lifecycle-livedata-core-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/1fc26ed042317fddd1eff143a5790aa5/transformed/jetified-lifecycle-process-2.8.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/1fc26ed042317fddd1eff143a5790aa5/transformed/jetified-lifecycle-process-2.8.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/b7762e6977849d74fe686ad74d9a1232/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/b7762e6977849d74fe686ad74d9a1232/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/2c58b3069657e3a99dfb7a03f8267410/transformed/jetified-lifecycle-livedata-core-ktx-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/2c58b3069657e3a99dfb7a03f8267410/transformed/jetified-lifecycle-livedata-core-ktx-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/b92f1f351c556e160038976776f3d10a/transformed/jetified-lifecycle-viewmodel-ktx-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/b92f1f351c556e160038976776f3d10a/transformed/jetified-lifecycle-viewmodel-ktx-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c8f7bfd5d5e2724cdccec4d4f7d2469a/transformed/jetified-leakcanary-object-watcher-android-2.12/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c8f7bfd5d5e2724cdccec4d4f7d2469a/transformed/jetified-leakcanary-object-watcher-android-2.12/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/63a27adec5d49f7ff5fbfe21a4832505/transformed/jetified-plumber-android-2.12/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/63a27adec5d49f7ff5fbfe21a4832505/transformed/jetified-plumber-android-2.12/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/72bbe8dbc77964f559f12fd51ef1594b/transformed/jetified-leakcanary-object-watcher-android-androidx-2.12/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/72bbe8dbc77964f559f12fd51ef1594b/transformed/jetified-leakcanary-object-watcher-android-androidx-2.12/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/9e09e3e5832fca1b9d7011c3db1c11b3/transformed/jetified-leakcanary-object-watcher-android-support-fragments-2.12/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/9e09e3e5832fca1b9d7011c3db1c11b3/transformed/jetified-leakcanary-object-watcher-android-support-fragments-2.12/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/65d896c24f871a0f8fc0f45da44e98e8/transformed/jetified-leakcanary-object-watcher-android-core-2.12/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/65d896c24f871a0f8fc0f45da44e98e8/transformed/jetified-leakcanary-object-watcher-android-core-2.12/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/2bd5f312dc326c810f7248948cdd7d5a/transformed/jetified-plumber-android-core-2.12/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/2bd5f312dc326c810f7248948cdd7d5a/transformed/jetified-plumber-android-core-2.12/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/b7fc71add068ce0a6bfbf0156ad79aff/transformed/jetified-leakcanary-android-utils-2.12/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/b7fc71add068ce0a6bfbf0156ad79aff/transformed/jetified-leakcanary-android-utils-2.12/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.curtains:curtains:1.2.4] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/67b31116081fa2fe12b19ec4d0c73f91/transformed/jetified-curtains-1.2.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.curtains:curtains:1.2.4] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/67b31116081fa2fe12b19ec4d0c73f91/transformed/jetified-curtains-1.2.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/53c02cfdc283596e9c0fd0ed63789de7/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/53c02cfdc283596e9c0fd0ed63789de7/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/35ca2248acc99175ae0b5772c242a970/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/35ca2248acc99175ae0b5772c242a970/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/a7f90deb09043f9410a9d6d85550e640/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/a7f90deb09043f9410a9d6d85550e640/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/b59792819697092a1c77572ac69ce002/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/b59792819697092a1c77572ac69ce002/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/2b62e28e9ae6d237f84e9c676493a562/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/2b62e28e9ae6d237f84e9c676493a562/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/d17353d07e05fe5a044e24a17087d293/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/d17353d07e05fe5a044e24a17087d293/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/a531b58ec93832c84bca4099f1b55932/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/a531b58ec93832c84bca4099f1b55932/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/eb4dffc48a6e9ce5c981b25ef2e3b09c/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/eb4dffc48a6e9ce5c981b25ef2e3b09c/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/d15ff4cd358a186eb3ac220e9ec420f3/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/d15ff4cd358a186eb3ac220e9ec420f3/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/26b834c1ea5d618ab5f0bbd199073f4f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/26b834c1ea5d618ab5f0bbd199073f4f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd237eb39e3a96debb85f9dcb5073b3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd237eb39e3a96debb85f9dcb5073b3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/e81058bf93b7aa78cb3e72e4bbeb7cfa/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/e81058bf93b7aa78cb3e72e4bbeb7cfa/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /usr/local/google/home/soumyakantas/AndroidStudioProjects/MemoryLeakSample/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/1fc26ed042317fddd1eff143a5790aa5/transformed/jetified-lifecycle-process-2.8.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/1fc26ed042317fddd1eff143a5790aa5/transformed/jetified-lifecycle-process-2.8.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/b59792819697092a1c77572ac69ce002/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/b59792819697092a1c77572ac69ce002/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/5776be6171fc1cc9a79b833f3f078cd0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+permission#com.example.memoryleaksample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.memoryleaksample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/3dd2c7e1706fa08f4864905bc334cdd4/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/1fc26ed042317fddd1eff143a5790aa5/transformed/jetified-lifecycle-process-2.8.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/1fc26ed042317fddd1eff143a5790aa5/transformed/jetified-lifecycle-process-2.8.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.1] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/1fc26ed042317fddd1eff143a5790aa5/transformed/jetified-lifecycle-process-2.8.1/AndroidManifest.xml:30:17-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:25:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:26:22-78
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:29:5-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:29:22-74
+provider#leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:32:9-40:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:36:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:34:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:33:13-70
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:37:13-39:66
+	android:resource
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:39:17-63
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:38:17-67
+activity#leakcanary.internal.activity.LeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:42:9-73:20
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:46:13-71
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:44:13-36
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:45:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:48:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:47:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:43:13-69
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\..*\\..*\\..*\\..*\\..*\\..*\\.hprof+data:pathPattern:.*\\..*\\..*\\..*\\..*\\..*\\.hprof+data:pathPattern:.*\\..*\\..*\\..*\\..*\\.hprof+data:pathPattern:.*\\..*\\..*\\..*\\.hprof+data:pathPattern:.*\\..*\\..*\\.hprof+data:pathPattern:.*\\..*\\.hprof+data:pathPattern:.*\\.hprof+data:scheme:content+data:scheme:file
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:49:13-72:29
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:49:28-81
+action#android.intent.action.VIEW
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:50:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:52:17-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:52:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:53:17-78
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:53:27-75
+data
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:55:17-47
+	android:scheme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:55:23-44
+activity-alias#leakcanary.internal.activity.LeakLauncherActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:75:9-92:26
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:78:13-66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:81:13-71
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:79:13-36
+	android:targetActivity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:82:13-79
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:80:13-52
+	android:banner
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:77:13-59
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:84:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:83:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:76:13-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:85:13-91:29
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:90:17-86
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:90:27-83
+activity#leakcanary.internal.RequestPermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:94:9-100:68
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:98:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:96:13-46
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:97:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:100:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:99:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:95:13-73
+receiver#leakcanary.internal.NotificationReceiver
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:102:9-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/91653e0d8e32f4b43ee4224f02d7e32e/transformed/jetified-leakcanary-android-core-2.12/AndroidManifest.xml:102:19-74
+provider#leakcanary.internal.MainProcessAppWatcherInstaller
+ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c8f7bfd5d5e2724cdccec4d4f7d2469a/transformed/jetified-leakcanary-object-watcher-android-2.12/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c8f7bfd5d5e2724cdccec4d4f7d2469a/transformed/jetified-leakcanary-object-watcher-android-2.12/AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c8f7bfd5d5e2724cdccec4d4f7d2469a/transformed/jetified-leakcanary-object-watcher-android-2.12/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c8f7bfd5d5e2724cdccec4d4f7d2469a/transformed/jetified-leakcanary-object-watcher-android-2.12/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/c8f7bfd5d5e2724cdccec4d4f7d2469a/transformed/jetified-leakcanary-object-watcher-android-2.12/AndroidManifest.xml:9:13-78
+provider#leakcanary.internal.PlumberInstaller
+ADDED from [com.squareup.leakcanary:plumber-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/63a27adec5d49f7ff5fbfe21a4832505/transformed/jetified-plumber-android-2.12/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:plumber-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/63a27adec5d49f7ff5fbfe21a4832505/transformed/jetified-plumber-android-2.12/AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:plumber-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/63a27adec5d49f7ff5fbfe21a4832505/transformed/jetified-plumber-android-2.12/AndroidManifest.xml:10:13-69
+	android:exported
+		ADDED from [com.squareup.leakcanary:plumber-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/63a27adec5d49f7ff5fbfe21a4832505/transformed/jetified-plumber-android-2.12/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:plumber-android:2.12] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/63a27adec5d49f7ff5fbfe21a4832505/transformed/jetified-plumber-android-2.12/AndroidManifest.xml:9:13-64
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /usr/local/google/home/soumyakantas/.gradle/caches/9.0-milestone-1/transforms/13d723302a31c8221a5b437ebc0e0ea1/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
